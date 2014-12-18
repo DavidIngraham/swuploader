@@ -17,6 +17,6 @@ setup(
         './bin/swuploader',
     ],
     setup_requires=[],
-    description='Easy to up model uploader for Shapeways.com',
+    description='Easy to use bulk model uploader for Shapeways.com API',
     url='http://github.com/brettlangdon/swuploader',
 )
