@@ -12,6 +12,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'shapeways==1.0.0',
+        'docopt==0.6.2',
     ],
     scripts=[
         './bin/swuploader',
