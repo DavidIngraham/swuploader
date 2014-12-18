@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 from swuploader import __version__
 
@@ -9,7 +9,9 @@ setup(
     version=__version__,
     author='Brett Langdon',
     author_email='brett@blangdon.com',
-    packages=find_packages(),
+    packages=[
+        'swuploader.py',
+    ],
     install_requires=[
         'shapeways==1.0.0',
         'docopt==0.6.2',
