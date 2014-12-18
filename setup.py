@@ -10,7 +10,7 @@ setup(
     author='Brett Langdon',
     author_email='brett@blangdon.com',
     packages=[
-        'swuploader.py',
+        'swuploader',
     ],
     install_requires=[
         'shapeways==1.0.0',
