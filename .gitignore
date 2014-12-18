@@ -1,0 +1,12 @@
+*.py[co]
+*.log
+build
+dist
+docs/_*
+.env
+*.egg-info
+*.egg
+htmlcov
+.coverage
+models
+*.json

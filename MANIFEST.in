@@ -1,0 +1,4 @@
+include README.* setup.py setup.cfg swuploader.py
+include bin *
+global-exclude *.pyc
+global-exclude *.pyo
