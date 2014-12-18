@@ -9,7 +9,7 @@ setup(
     version=__version__,
     author='Brett Langdon',
     author_email='brett@blangdon.com',
-    packages=[
+    py_modules=[
         'swuploader',
     ],
     install_requires=[
