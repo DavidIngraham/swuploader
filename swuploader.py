@@ -34,6 +34,7 @@ def parse_settings(settings_filename):
                     "markup": float(value),
                     "isActive": True,
                 }
+                continue
             elif name == "categories":
                 value = [int(c) for c in value.split(",")]
             elif name == "tags":
