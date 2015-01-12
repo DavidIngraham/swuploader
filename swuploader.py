@@ -2,7 +2,7 @@ import base64
 import glob
 import os
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 
 def parse_settings(settings_filename):
