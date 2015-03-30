@@ -56,7 +56,7 @@ def upload_model(settings, client):
     if not settings.get("file"):
         return False
 
-    with open(settings["file"],'rb') as fp:
+    with open(settings["file"], "rb") as fp:
         settings["file"] = base64.b64encode(fp.read())
 
     return client.add_model(settings)
